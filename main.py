@@ -77,3 +77,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+if not OPENAI_API_KEY:
+    raise ValueError("OPENAI_API_KEY is missing! Add it in Render -> Environment.")
